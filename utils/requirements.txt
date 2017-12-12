@@ -1,0 +1,53 @@
+# tri : (export LANG=C ; sort utils/requirements.txt)
+# analyse : pipdeptree --all --reverse # lire les erreurs en tete
+Django==1.11.7
+Pillow==4.3.0
+Unidecode==0.4.21
+#appdirs==1.4.3 # intrinseque pip
+beautifulsoup4==4.6.0
+certifi==2017.11.5
+chardet==3.0.4
+django-appconf==1.0.2
+django-auth-ldap==1.2.16
+# en submodule django-cas-ng==3.5.8
+django-classy-tags==0.8.0
+django-cms==3.4.5
+django-debug-toolbar==1.8
+django-extensions==1.9.7
+django-filer==1.3.0
+django-formtools==2.1
+django-mptt==0.8.7
+django-polymorphic==1.3 # 1.0.2 # djangocms-picture refuse 1.1.0
+django-reversion==2.0.10 # utile ?
+django-sekizai==0.10.0
+# fait des trucs bizarres django-softhyphen==1.1.0
+django-treebeard==4.1.2
+djangocms-admin-style==1.2.7
+djangocms-attributes-field==0.3.0
+djangocms-file==2.0.2
+# en submodule djangocms-link==2.1.2
+djangocms-page-sitemap==0.4.1
+djangocms-picture==2.0.6
+# en submodule djangocms-snippet==1.9.2
+djangocms-style==2.0.2
+djangocms-text-ckeditor==3.5.1
+djangocms-video==2.0.4
+easy-thumbnails==2.4.2 # 2.3 # bloque par django-filer
+html5lib==0.9999999
+idna==2.6
+numpy==1.13.3
+olefile==0.44
+#packaging==16.8 # intrinseque pip
+pipdeptree==0.10.1
+#pkg-resources==0.0.0 # intrinseque pip
+psycopg2==2.7.3.2
+pyldap==2.4.37
+#pyparsing==2.1.10 # intrinseque pip
+python-cas==1.2.0
+#python-ldap==2.4.40
+pytz==2017.3
+requests==2.18.4
+six==1.11.0
+sqlparse==0.2.4
+typing==3.6.2
+urllib3==1.22
