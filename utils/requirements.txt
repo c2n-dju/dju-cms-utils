@@ -41,14 +41,14 @@ olefile==0.45.1
 #packaging==16.8 # intrinseque pip
 pipdeptree==0.12.1
 #pkg-resources==0.0.0 # intrinseque pip
-psycopg2==2.7.3.2
-pyldap==2.4.37
+psycopg2==2.7.3.2 # 2.7.4 nous parle de binaire
+pyldap==2.4.45
 #pyparsing==2.1.10 # intrinseque pip
 python-cas==1.2.0
 #python-ldap==2.4.40
-pytz==2017.3
+pytz==2018.4
 requests==2.18.4
 six==1.11.0
 sqlparse==0.2.4
-typing==3.6.2
+typing==3.6.4
 urllib3==1.22
