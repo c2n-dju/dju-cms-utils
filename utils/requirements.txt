@@ -21,25 +21,25 @@ django-polymorphic==2.0.2 # 1.0.2 # djangocms-picture refuse 1.1.0
 django-reversion==2.0.13 # utile ?
 django-sekizai==0.10.0
 # fait des trucs bizarres django-softhyphen==1.1.0
-django-treebeard==4.1.2
-djangocms-admin-style==1.2.7
+django-treebeard==4.3
+djangocms-admin-style==1.2.8
 djangocms-attributes-field==0.3.0
 djangocms-file==2.0.2
 # djangocms-link==2.1.2
 -e git+https://github.com/divio/djangocms-link.git@338c6fc21979dc55f951921aba01b66285919af2#egg=djangocms-link
 djangocms-page-sitemap==0.5.2
 djangocms-picture==2.0.6
-# en submodule djangocms-snippet==1.9.2
+# en submodule djangocms-snippet==2.0.0
 djangocms-style==2.0.2
-djangocms-text-ckeditor==3.5.1
+djangocms-text-ckeditor==3.6.0
 djangocms-video==2.0.4
-easy-thumbnails==2.4.2 # 2.3 # bloque par django-filer
-html5lib==0.9999999
+easy-thumbnails==2.5 # 2.3 # bloque par django-filer
+html5lib==0.9999999 # djangocms-text-ckeditor 3.5.1 has requirement <0.99999999
 idna==2.6
-numpy==1.13.3
-olefile==0.44
+numpy==1.14.2
+olefile==0.45.1
 #packaging==16.8 # intrinseque pip
-pipdeptree==0.10.1
+pipdeptree==0.12.1
 #pkg-resources==0.0.0 # intrinseque pip
 psycopg2==2.7.3.2
 pyldap==2.4.37
