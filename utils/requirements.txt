@@ -26,8 +26,7 @@ django-treebeard==4.3
 djangocms-admin-style==1.2.8
 djangocms-attributes-field==0.3.0
 djangocms-file==2.0.2
-# en submodule djangocms-link==2.1.2
-# -e git+https://github.com/divio/djangocms-link.git@9528fe5ab9e35830324f720cacb850939241fd54#egg=djangocms-link
+djangocms-link==2.5.0
 djangocms-link-manager==0.2.1
 djangocms-page-sitemap==0.5.2
 djangocms-picture==2.0.6
