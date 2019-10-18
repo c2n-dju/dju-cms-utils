@@ -49,7 +49,7 @@ pyldap==2.4.45
 python-cas==1.2.0
 #python-ldap==2.4.40
 pytz==2018.4
-requests==2.18.4
+requests==2.20.0
 six==1.11.0
 sqlparse==0.2.4
 typing==3.6.4
