@@ -2,7 +2,7 @@
 # analyse : pipdeptree --all --reverse # lire les erreurs en tete
 # liste des mises à jour : pip list --outdated 
 Django==1.11.13
-Pillow==5.1.0
+Pillow==6.2.0
 Unidecode==0.4.21 # pas plus pour django-filer==1.3.2
 #appdirs==1.4.3 # intrinseque pip
 beautifulsoup4==4.6.0
