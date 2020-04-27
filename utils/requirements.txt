@@ -38,7 +38,7 @@ djangocms-video==2.0.4
 easy-thumbnails==2.5 # 2.3 # bloque par django-filer
 html5lib==0.9999999 # djangocms-text-ckeditor 3.5.1 has requirement <0.99999999
 idna==2.6
-numpy==1.14.2
+numpy==1.18.3
 olefile==0.45.1
 #packaging==16.8 # intrinseque pip
 pipdeptree==0.12.1
