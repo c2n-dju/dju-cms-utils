@@ -8,11 +8,11 @@ attrs==19.3.0
 beautifulsoup4==4.9.0
 certifi==2020.4.5.1
 chardet==3.0.4
-django-appconf==1.0.4
+#? django-appconf==1.0.4
 #django-auth-ldap==1.5.0
 django-cas-ng==3.5.9
 django-classy-tags==1.0.0
-django-cms==3.6.0
+django-cms==3.7.2
 django-debug-toolbar==2.2
 django-extensions==2.2.9
 django-filer==1.7.1
@@ -20,7 +20,7 @@ django-formtools==2.2
 django-js-asset==1.2.2
 django-mptt==0.11.0
 django-polymorphic==2.1.2
-django-reversion==2.0.13
+#? django-reversion==2.0.13
 django-sekizai==1.1.0
 # fait des trucs bizarres django-softhyphen==1.1.0
 django-treebeard==4.3.1
@@ -29,7 +29,7 @@ djangocms-attributes-field==1.2.0
 djangocms-file==2.4.0
 djangocms-link-manager==0.2.1
 djangocms-link==2.6.0
-djangocms-page-sitemap==0.5.4
+# en submodule djangocms-page-sitemap==0.8.0
 djangocms-picture==2.4.0
 djangocms-snippet==2.3.0
 djangocms-style==2.3.0
@@ -40,20 +40,20 @@ html5lib==1.0.1
 idna==2.9
 lxml==4.5.0
 numpy==1.18.3
-olefile==0.45.1
+#? olefile==0.45.1
 phonenumberslite==7.7.5
 pipdeptree==0.13.2
 psycopg2==2.8.5
 #pyldap==2.4.45
-pyasn1-modules==0.2.8
-pyasn1==0.4.8
+#? pyasn1-modules==0.2.8
+#? pyasn1==0.4.8
 python-cas==1.5.0
 #python-ldap==2.4.40
-pytz==2020.1
+#? pytz==2020.1
 requests==2.23.0
 six==1.14.0
 soupsieve==2.0
 sqlparse==0.3.1
-typing==3.6.4 # gadget ?
+typing==3.7.4.1 # gadget ?
 urllib3==1.25.9
 webencodings==0.5.1
