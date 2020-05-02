@@ -1,7 +1,7 @@
 # tri : (export LANG=C ; sort utils/requirements.txt)
 # analyse : pipdeptree --all --reverse # lire les erreurs en tete
 # liste des mises à jour : pip list --outdated 
-Django==2.2.12
+Django==3.0.5
 Pillow==7.1.2
 Unidecode==1.1.1
 attrs==19.3.0
@@ -10,7 +10,7 @@ certifi==2020.4.5.1
 chardet==3.0.4
 #? django-appconf==1.0.4
 #django-auth-ldap==1.5.0
-django-cas-ng==3.5.9
+django-cas-ng==4.1.1
 django-classy-tags==1.0.0
 django-cms==3.7.2
 django-debug-toolbar==2.2
