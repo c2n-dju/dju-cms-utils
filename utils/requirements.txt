@@ -4,18 +4,19 @@
 Django==1.11.21
 Pillow==5.1.0
 Unidecode==0.4.21 # pas plus pour django-filer==1.3.2
+attrs==19.3.0
 #appdirs==1.4.3 # intrinseque pip
 beautifulsoup4==4.6.0
 certifi==2018.4.16
 chardet==3.0.4
 django-appconf==1.0.2
-django-auth-ldap==1.5.0
+#django-auth-ldap==1.5.0
 django-cas-ng==3.5.9
 django-classy-tags==0.8.0
-# en submodule django-cms==3.5.2
+django-cms==3.5.2
 django-debug-toolbar==1.9.1
 django-extensions==2.0.7
-django-filer==1.3.2
+django-filer==1.7.1
 django-formtools==2.1
 django-mptt==0.8.7 # 0.9 interdit pour django-filer==1.3.2
 django-polymorphic==2.0.2 # 1.0.2 # djangocms-picture refuse 1.1.0
@@ -24,11 +25,11 @@ django-sekizai==0.10.0
 # fait des trucs bizarres django-softhyphen==1.1.0
 django-treebeard==4.3
 djangocms-admin-style==1.2.8
-djangocms-attributes-field==0.3.0
+djangocms-attributes-field==1.2.0
 djangocms-file==2.0.2
-# en submodule djangocms-link==2.1.2
-# -e git+https://github.com/divio/djangocms-link.git@9528fe5ab9e35830324f720cacb850939241fd54#egg=djangocms-link
 djangocms-link-manager==0.2.1
+djangocms-link==2.6.0
+# -e git+https://github.com/divio/djangocms-link.git@9528fe5ab9e35830324f720cacb850939241fd54#egg=djangocms-link
 djangocms-page-sitemap==0.5.2
 djangocms-picture==2.0.6
 # en submodule djangocms-snippet==2.0.0
@@ -41,10 +42,11 @@ idna==2.6
 numpy==1.14.2
 olefile==0.45.1
 #packaging==16.8 # intrinseque pip
-pipdeptree==0.12.1
+phonenumberslite==7.7.5
+pipdeptree==0.13.2
 #pkg-resources==0.0.0 # intrinseque pip
 psycopg2==2.7.3.2 # 2.7.4 nous parle de binaire
-pyldap==2.4.45
+#pyldap==2.4.45
 #pyparsing==2.1.10 # intrinseque pip
 python-cas==1.2.0
 #python-ldap==2.4.40
