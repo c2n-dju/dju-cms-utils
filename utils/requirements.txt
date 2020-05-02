@@ -5,7 +5,6 @@ Django==1.11.29
 Pillow==7.1.2
 Unidecode==1.1.1
 attrs==19.3.0
-#appdirs==1.4.3 # intrinseque pip
 beautifulsoup4==4.9.0
 certifi==2020.4.5.1
 chardet==3.0.4
@@ -13,7 +12,7 @@ django-appconf==1.0.4
 #django-auth-ldap==1.5.0
 django-cas-ng==3.5.9
 django-classy-tags==1.0.0
-django-cms==3.5.3
+django-cms==3.6.0
 django-debug-toolbar==2.2
 django-extensions==2.2.9
 django-filer==1.7.1
@@ -21,7 +20,7 @@ django-formtools==2.2
 django-js-asset==1.2.2
 django-mptt==0.11.0
 django-polymorphic==2.1.2
-#? django-reversion==2.0.13 # utile ?
+django-reversion==2.0.13
 django-sekizai==1.1.0
 # fait des trucs bizarres django-softhyphen==1.1.0
 django-treebeard==4.3.1
@@ -36,19 +35,18 @@ djangocms-snippet==2.3.0
 djangocms-style==2.3.0
 djangocms-text-ckeditor==3.9.0
 djangocms-video==2.3.0
-easy-thumbnails==2.7 # 2.3 # bloque par django-filer
-html5lib==1.0.1 # 0.9999999 # djangocms-text-ckeditor 3.5.1 has requirement <0.99999999
+easy-thumbnails==2.7
+html5lib==1.0.1
 idna==2.9
 lxml==4.5.0
 numpy==1.18.3
-#? olefile==0.46
-#packaging==16.8 # intrinseque pip
+olefile==0.45.1
 phonenumberslite==7.7.5
 pipdeptree==0.13.2
-#pkg-resources==0.0.0 # intrinseque pip
-psycopg2==2.8.5 # 2.7.3.2 # 2.7.4 nous parle de binaire
+psycopg2==2.8.5
 #pyldap==2.4.45
-#pyparsing==2.1.10 # intrinseque pip
+pyasn1-modules==0.2.8
+pyasn1==0.4.8
 python-cas==1.5.0
 #python-ldap==2.4.40
 pytz==2020.1
@@ -56,6 +54,6 @@ requests==2.23.0
 six==1.14.0
 soupsieve==2.0
 sqlparse==0.3.1
-#? typing==3.6.4
+typing==3.6.4 # gadget ?
 urllib3==1.25.9
 webencodings==0.5.1
