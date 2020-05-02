@@ -32,8 +32,8 @@ djangocms-link==2.6.0
 # -e git+https://github.com/divio/djangocms-link.git@9528fe5ab9e35830324f720cacb850939241fd54#egg=djangocms-link
 djangocms-page-sitemap==0.5.2
 djangocms-picture==2.0.6
-# en submodule djangocms-snippet==2.0.0
-# en submodule djangocms-style==2.0.2
+djangocms-snippet==2.3.0
+djangocms-style==2.0.2
 djangocms-text-ckeditor==3.6.0
 djangocms-video==2.0.4
 easy-thumbnails==2.5 # 2.3 # bloque par django-filer
