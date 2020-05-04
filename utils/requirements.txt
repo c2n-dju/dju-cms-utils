@@ -1,7 +1,7 @@
 # tri : (export LANG=C ; sort utils/requirements.txt)
 # analyse : pipdeptree --all --reverse # lire les erreurs en tete
 # liste des mises à jour : pip list --outdated 
-Django==3.0.5
+Django==3.0.6
 Pillow==7.1.2
 Unidecode==1.1.1
 attrs==19.3.0
@@ -39,9 +39,9 @@ easy-thumbnails==2.7
 html5lib==1.0.1
 idna==2.9
 lxml==4.5.0
-numpy==1.18.3
+numpy==1.18.4
 #? olefile==0.45.1
-phonenumberslite==7.7.5
+phonenumberslite==8.12.2
 pipdeptree==0.13.2
 psycopg2==2.8.5
 #pyldap==2.4.45
