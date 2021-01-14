@@ -1,59 +1,59 @@
 # tri : (export LANG=C ; sort utils/requirements.txt)
 # analyse : pipdeptree --all --reverse # lire les erreurs en tete
 # liste des mises à jour : pip list --outdated 
-Django==3.0.11
-Pillow==7.1.2
-Unidecode==1.1.1
-attrs==19.3.0
-beautifulsoup4==4.9.0
-certifi==2020.4.5.1
-chardet==3.0.4
+Django==3.1.5
+Pillow==8.1.0
+Unidecode==1.1.2
+attrs==20.3.0
+beautifulsoup4==4.9.3
+certifi==2020.12.5
+chardet==4.0.0
 #? django-appconf==1.0.4
 #django-auth-ldap==1.5.0
 django-cas-ng==4.1.1
-django-classy-tags==1.0.0
+django-classy-tags==2.0.0
 django-cms==3.8.0
-django-debug-toolbar==2.2
-django-extensions==2.2.9
-django-filer==1.7.1
+django-debug-toolbar==3.2
+django-extensions==3.1.0
+django-filer==2.0.2
 django-formtools==2.2
 django-js-asset==1.2.2
 django-mptt==0.11.0
-django-polymorphic==2.1.2
+django-polymorphic==3.0.0
 #? django-reversion==2.0.13
-django-sekizai==1.1.0
+django-sekizai==2.0.0
 # fait des trucs bizarres django-softhyphen==1.1.0
-django-treebeard==4.3.1
-djangocms-admin-style==1.5.0
-djangocms-attributes-field==1.2.0
-djangocms-file==2.4.0
+django-treebeard==4.4
+djangocms-admin-style==2.0.2
+djangocms-attributes-field==2.0.0
+djangocms-file==3.0.0
 # deprecated djangocms-link-manager==0.2.1
-djangocms-link==2.6.0
+djangocms-link==3.0.0
 # en submodule djangocms-page-sitemap==0.8.0
-djangocms-picture==2.4.0
-djangocms-snippet==2.3.0
-djangocms-style==2.3.0
-djangocms-text-ckeditor==3.9.0
-djangocms-video==2.3.0
-easy-thumbnails==2.7
-html5lib==1.0.1
-idna==2.9
-lxml==4.5.0
-numpy==1.18.4
+djangocms-picture==3.0.0
+djangocms-snippet==3.0.0
+djangocms-style==3.0.0
+djangocms-text-ckeditor==4.0.0
+djangocms-video==3.0.0
+easy-thumbnails==2.7.1
+html5lib==1.1
+idna==2.10
+lxml==4.6.2
+numpy==1.19.5
 #? olefile==0.45.1
-phonenumberslite==8.12.2
-pipdeptree==0.13.2
-psycopg2==2.8.5
+phonenumberslite==8.12.16
+pipdeptree==2.0.0
+psycopg2==2.8.6
 #pyldap==2.4.45
 #? pyasn1-modules==0.2.8
 #? pyasn1==0.4.8
 python-cas==1.5.0
 #python-ldap==2.4.40
-pytz==2020.1
-requests==2.23.0
-six==1.14.0
-soupsieve==2.0
-sqlparse==0.3.1
-typing==3.7.4.1 # gadget ?
-urllib3==1.25.9
+pytz==2020.5
+requests==2.25.1
+six==1.15.0
+soupsieve==2.1
+sqlparse==0.4.1
+typing==3.7.4.3 # gadget ?
+urllib3==1.26.2
 webencodings==0.5.1
