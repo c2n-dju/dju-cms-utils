@@ -1,20 +1,45 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+
+from django.contrib.sites.models import Site
+from django.urls import reverse
+
 from cms.api import add_plugin
 
 from cms.models.pagemodel          import Page
-from cms.models.placeholdermodel   import Placeholder
-from cms.models.pluginmodel        import CMSPlugin
-from cms.models.static_placeholder import StaticPlaceholder
 from cms.models.titlemodels        import Title
 
-from django.template import TemplateDoesNotExist
-# obsolete: from cms.utils.plugins import get_placeholders
 
-from djangocms_text_ckeditor.models import Text
-from djangocms_text_ckeditor.cms_plugins import TextPlugin
-import djangocms_text_ckeditor as cke
+sites = Site.objects.get_queryset()
+
+s = sites[0].id
+
+root_drafts = Page.objects.drafts().on_site(s).filter(node__depth=1)
+
+p = root_drafts[0]
+
+n = p.node
+
+n.is_root()
+
+titles = Title.objects.filter(page=p) # les deux langues
+
+t = titles[0]
+
+assert(not(t.has_path_override))
+
+t.path # 'trash'
+
+n1= t.page.node
+
+
+
+
+
+
+
+
 
 pa = Page.objects.get(id=9) # un objet
 # Title.objects.get(page_id=9) # error, deux objets
