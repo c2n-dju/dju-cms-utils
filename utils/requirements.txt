@@ -2,8 +2,8 @@
 # analyse : pipdeptree --all --reverse # lire les erreurs en tete
 # liste des mises à jour : pip list --outdated 
 wheel==0.36.2 # mode d'installation plus rapide ?
-Django==2.1.15
-Pillow==5.1.0
+Django==3.1.6
+Pillow==8.1.0
 Unidecode==0.4.21 # pas plus pour django-filer==1.3.2
 #appdirs==1.4.3 # intrinseque pip
 beautifulsoup4==4.6.0
@@ -12,46 +12,44 @@ chardet==3.0.4
 django-appconf==1.0.2
 django-auth-ldap==1.5.0
 django-cas-ng==4.1.1
-django-classy-tags==0.8.0
-django-cms==3.7.4 # 3.8.0
-django-debug-toolbar==2.2
-django-extensions==2.0.7
-django-filer==1.7.1
-django-formtools==2.1
-django-mptt==0.8.7 # 0.9 interdit pour django-filer==1.3.2
-django-polymorphic==2.0.2 # 1.0.2 # djangocms-picture refuse 1.1.0
-django-reversion==2.0.13 # utile ?
-django-sekizai==0.10.0
+django-classy-tags==2.0.0
+django-cms==3.8.0
+django-debug-toolbar==3.2
+django-extensions==3.1.1
+django-filer==2.0.2
+django-formtools==2.2
+django-mptt==0.11.0
+django-polymorphic==3.0.0
+django-reversion==3.0.9
+django-sekizai==2.0.0
 # fait des trucs bizarres django-softhyphen==1.1.0
-django-treebeard==4.3
-djangocms-admin-style==1.2.8
-djangocms-attributes-field==0.4.0
-djangocms-file==2.4.0
-djangocms-link==2.6.1
-# -e git+https://github.com/divio/djangocms-link.git@9528fe5ab9e35830324f720cacb850939241fd54#egg=djangocms-link
-djangocms-link-manager==0.2.1
+django-treebeard==4.4
+djangocms-admin-style==2.0.2
+djangocms-attributes-field==2.0.0
+djangocms-file==3.0.0
+djangocms-link==3.0.0
 djangocms-page-sitemap==1.0.0
-djangocms-picture==2.4.0
-djangocms-snippet==2.3.0
-djangocms-style==2.3.0
+djangocms-picture==3.0.0
+djangocms-snippet==3.0.0
+djangocms-style==3.0.0
 djangocms-text-ckeditor==4.0.0
-djangocms-video==2.3.0
-easy-thumbnails==2.5 # 2.3 # bloque par django-filer
+djangocms-video==3.0.0
+easy-thumbnails==2.7.1
 html5lib==1.1
-idna==2.6
+idna==2.10
 numpy==1.20.1
-olefile==0.45.1
+olefile==0.46
 #packaging==16.8 # intrinseque pip
-pipdeptree==0.12.1
+pipdeptree==2.0.0
 #pkg-resources==0.0.0 # intrinseque pip
 psycopg2==2.8.6
-pyldap==2.4.45
+pyldap==3.0.0
 #pyparsing==2.1.10 # intrinseque pip
 python-cas==1.5.0
 #python-ldap==2.4.40
-pytz==2018.4
-requests==2.20.0
-six==1.11.0
-sqlparse==0.2.4
-typing==3.6.4
-urllib3==1.23
+pytz==2021.1
+requests==2.25.1
+six==1.15.0
+sqlparse==0.4.1
+typing==3.7.4.3
+urllib3==1.26.3
