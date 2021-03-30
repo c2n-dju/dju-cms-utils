@@ -2,7 +2,7 @@
 # analyse : pipdeptree --all --reverse # lire les erreurs en tete
 # liste des mises à jour : pip list --outdated 
 Django==3.1.6
-Pillow==8.1.0
+Pillow==8.1.1
 Unidecode==1.1.2 # 1.2.0 conflit django-filer
 asgiref==3.3.1
 attrs==20.3.0
