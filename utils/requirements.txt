@@ -1,7 +1,7 @@
 # tri : (export LANG=C ; sort utils/requirements.txt)
 # analyse : pipdeptree --all --reverse # lire les erreurs en tete
 # liste des mises à jour : pip list --outdated 
-Django==3.1.8
+Django==3.1.10
 Pillow==8.1.1
 Unidecode==1.1.2 # 1.2.0 conflit django-filer
 asgiref==3.3.1
